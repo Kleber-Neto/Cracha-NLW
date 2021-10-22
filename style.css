@@ -20,13 +20,14 @@ html, body {
 								}
 								
 								main {
-										background: url("imagens/Mobile.png") ;	
-										wiwidth: 375px;	
-										height: 812px;
+										background: url("imagens/Mobile.png") no-repeat center/cover;	
+										width: 100vw;	
+					 				        min-height: 812px;
+height: 100vh;
 								}
 								
 								.container {
-											wiwidth: 250px;
+											width: 250px;
 											margin-left: auto;
 											margin-right: auto;
 											text-align: center;
